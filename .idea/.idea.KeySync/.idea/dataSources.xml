@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="keysync_db@2a01:4f9:3080:24a2:95e6:a1f7:fca5:106b" uuid="a79c4d38-0aef-4d2f-8c49-d4a58040a99e">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://[2a01:4f9:3080:24a2:95e6:a1f7:fca5:106b]:53994/keysync_db</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+  </component>
+</project>

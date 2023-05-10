@@ -12,4 +12,10 @@
       <PackageReference Include="Npgsql" Version="7.0.4" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Reference Include="Microsoft.AspNetCore.Cryptography.KeyDerivation">
+        <HintPath>..\..\..\.nuget\packages\microsoft.aspnetcore.app.ref\7.0.5\ref\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
 </Project>
