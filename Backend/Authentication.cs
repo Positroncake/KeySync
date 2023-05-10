@@ -48,7 +48,7 @@ public class Authentication
 
     public async Task<(bool, string)> Login(string username, string password)
     {
-        #region Retrieve hash and salt from db
+        #region Check for username and retrieve hash data
 
         await using var connection = new NpgsqlConnection(connStr);
         List<PasswordModel> hashes = (await connection.QueryAsync<PasswordModel>(
@@ -56,6 +56,7 @@ public class Authentication
             {
                 Username = username
             })).ToList();
+        if (hashes.Count is 0) return (false, ""); // Username not in database
         PasswordModel storedPwd = hashes[0];
 
         #endregion
