@@ -1,4 +1,6 @@
-﻿Client/bin/
+﻿Backend/bin/
+Backend/obj/
+Client/bin/
 Client/obj/
 Server/bin/
 Server/obj/

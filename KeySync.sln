@@ -8,6 +8,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KeySync.Client", "Client\Ke
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KeySync.Shared", "Shared\KeySync.Shared.csproj", "{DF0264DA-F9E8-4E81-BDCD-AA29224E187C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Backend", "Backend\Backend.csproj", "{A31519CA-892C-42B4-AE55-2FA867A48A73}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -54,6 +56,18 @@ Global
 		{DF0264DA-F9E8-4E81-BDCD-AA29224E187C}.Release|x64.Build.0 = Release|Any CPU
 		{DF0264DA-F9E8-4E81-BDCD-AA29224E187C}.Release|x86.ActiveCfg = Release|Any CPU
 		{DF0264DA-F9E8-4E81-BDCD-AA29224E187C}.Release|x86.Build.0 = Release|Any CPU
+		{A31519CA-892C-42B4-AE55-2FA867A48A73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A31519CA-892C-42B4-AE55-2FA867A48A73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A31519CA-892C-42B4-AE55-2FA867A48A73}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{A31519CA-892C-42B4-AE55-2FA867A48A73}.Debug|x64.Build.0 = Debug|Any CPU
+		{A31519CA-892C-42B4-AE55-2FA867A48A73}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A31519CA-892C-42B4-AE55-2FA867A48A73}.Debug|x86.Build.0 = Debug|Any CPU
+		{A31519CA-892C-42B4-AE55-2FA867A48A73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A31519CA-892C-42B4-AE55-2FA867A48A73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A31519CA-892C-42B4-AE55-2FA867A48A73}.Release|x64.ActiveCfg = Release|Any CPU
+		{A31519CA-892C-42B4-AE55-2FA867A48A73}.Release|x64.Build.0 = Release|Any CPU
+		{A31519CA-892C-42B4-AE55-2FA867A48A73}.Release|x86.ActiveCfg = Release|Any CPU
+		{A31519CA-892C-42B4-AE55-2FA867A48A73}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
