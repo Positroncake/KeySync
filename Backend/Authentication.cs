@@ -4,8 +4,17 @@ namespace Backend;
 
 public class Authentication
 {
-    public static void NewUser()
+    private string connStrFilePath;
+    private string connStr;
+
+    public Authentication(string connStrFilePath)
     {
-        using var c = new NpgsqlConnection();
+        this.connStrFilePath = connStrFilePath;
+        connStr = File.ReadAllLines(this.connStrFilePath)[0];
+    }
+
+    public void NewUser()
+    {
+        using var connection = new NpgsqlConnection(connStr);
     }
 }
